@@ -31,7 +31,7 @@ function CreatePost({ isAuth }) {
                 <h1>Create A Post</h1>
                 <div className="inputGp">
                     <label> Title: </label>
-                    <input
+                    <textarea
                         placeholder="Title..."
                         onChange={(event) => {
                             setTitle(event.target.value);
