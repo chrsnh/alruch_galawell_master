@@ -9,6 +9,7 @@ import { auth } from './firebase-config';
 import About from './pages/About';
 
 function App() {
+
   const [isAuth, setIsAuth] = useState(localStorage.getItem("isAuth"));
 
   const signUserOut = () => {
